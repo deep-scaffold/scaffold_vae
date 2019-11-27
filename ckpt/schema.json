@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Model configuration",
+    "description": "Schema for model configuration files",
+    "type": "object",
+    "properties": {
+        "ckpt_loc": {
+            "type": "string",
+            "description": "Location to store model checkpoints"
+        },
+        "beta": {
+            "type": "number",
+            "description": "Beta value"
+
+        },
+        "device_id": {
+            "type": "number",
+            "description": "Gpu index to use"
+        },
+        "num_annealing_steps": {
+            "type": "number",
+            "description": "Number of anneling steps"
+        }
+
+    }
+}

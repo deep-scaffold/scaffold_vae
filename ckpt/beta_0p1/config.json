@@ -1,0 +1,6 @@
+{
+    "init_beta": 0.1,
+    "final_beta": 0.1,
+    "num_epochs": 20,
+    "device_id": 2
+}

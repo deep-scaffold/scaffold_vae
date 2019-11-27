@@ -1,0 +1,6 @@
+{
+    "device_id": 3,
+    "init_beta": 0.0,
+    "num_epochs": 20,
+    "num_annealing_steps": 10000
+}
